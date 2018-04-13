@@ -37,4 +37,4 @@ Create a new Elastic Beanstalk app, based on Tomcat8 and upload the generated wa
 
 Once the app is running, change the software config:
 1. *JVM Options*, add  `-javaagent:/var/lib/sqreen/sqreen.jar`
-2. *Environment Properties*, add `SQREEN_TOKEN` with your own token provided by Sqreen.
+2. *Environment Properties*, add `sqreen.token` with your own token provided by Sqreen.
